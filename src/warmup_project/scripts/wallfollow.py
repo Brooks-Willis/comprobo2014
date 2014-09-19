@@ -128,7 +128,7 @@ def main():
         r.sleep()
         
 if __name__ == '__main__':
-    followdist = 1.0#int(raw_input("Input distance from wall (m)"))
+    followdist = int(raw_input("Input distance from wall (m)"))
     try:
         main()
     except rospy.ROSInterruptException: pass
